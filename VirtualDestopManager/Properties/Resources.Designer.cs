@@ -19,7 +19,7 @@ namespace VirtualDesktopManager.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -39,7 +39,7 @@ namespace VirtualDesktopManager.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("VirtualDesktopManager.Properties.Resources", typeof(Resources).Assembly);
+                    var temp = new global::System.Resources.ResourceManager("VirtualDesktopManager.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -65,7 +65,7 @@ namespace VirtualDesktopManager.Properties {
         /// </summary>
         internal static System.Drawing.Icon _1 {
             get {
-                object obj = ResourceManager.GetObject("_1", resourceCulture);
+                var obj = ResourceManager.GetObject("_1", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -75,7 +75,7 @@ namespace VirtualDesktopManager.Properties {
         /// </summary>
         internal static System.Drawing.Icon _2 {
             get {
-                object obj = ResourceManager.GetObject("_2", resourceCulture);
+                var obj = ResourceManager.GetObject("_2", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -85,7 +85,7 @@ namespace VirtualDesktopManager.Properties {
         /// </summary>
         internal static System.Drawing.Icon _3 {
             get {
-                object obj = ResourceManager.GetObject("_3", resourceCulture);
+                var obj = ResourceManager.GetObject("_3", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -95,7 +95,7 @@ namespace VirtualDesktopManager.Properties {
         /// </summary>
         internal static System.Drawing.Icon _4 {
             get {
-                object obj = ResourceManager.GetObject("_4", resourceCulture);
+                var obj = ResourceManager.GetObject("_4", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -105,7 +105,7 @@ namespace VirtualDesktopManager.Properties {
         /// </summary>
         internal static System.Drawing.Icon _5 {
             get {
-                object obj = ResourceManager.GetObject("_5", resourceCulture);
+                var obj = ResourceManager.GetObject("_5", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -115,7 +115,7 @@ namespace VirtualDesktopManager.Properties {
         /// </summary>
         internal static System.Drawing.Icon _6 {
             get {
-                object obj = ResourceManager.GetObject("_6", resourceCulture);
+                var obj = ResourceManager.GetObject("_6", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -125,7 +125,7 @@ namespace VirtualDesktopManager.Properties {
         /// </summary>
         internal static System.Drawing.Icon _7 {
             get {
-                object obj = ResourceManager.GetObject("_7", resourceCulture);
+                var obj = ResourceManager.GetObject("_7", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -135,7 +135,7 @@ namespace VirtualDesktopManager.Properties {
         /// </summary>
         internal static System.Drawing.Icon _8 {
             get {
-                object obj = ResourceManager.GetObject("_8", resourceCulture);
+                var obj = ResourceManager.GetObject("_8", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -145,7 +145,7 @@ namespace VirtualDesktopManager.Properties {
         /// </summary>
         internal static System.Drawing.Icon _9 {
             get {
-                object obj = ResourceManager.GetObject("_9", resourceCulture);
+                var obj = ResourceManager.GetObject("_9", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -155,7 +155,7 @@ namespace VirtualDesktopManager.Properties {
         /// </summary>
         internal static System.Drawing.Icon mainIco {
             get {
-                object obj = ResourceManager.GetObject("mainIco", resourceCulture);
+                var obj = ResourceManager.GetObject("mainIco", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -165,7 +165,7 @@ namespace VirtualDesktopManager.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap mainIcoPng {
             get {
-                object obj = ResourceManager.GetObject("mainIcoPng", resourceCulture);
+                var obj = ResourceManager.GetObject("mainIcoPng", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

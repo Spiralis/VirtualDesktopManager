@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualDesktopManager", "VirtualDestopCycle\VirtualDesktopManager.csproj", "{065F69EE-7316-4CB0-97A0-224CC1045C37}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualDesktopManager", "VirtualDestopManager\VirtualDesktopManager.csproj", "{065F69EE-7316-4CB0-97A0-224CC1045C37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F9F2035-F74B-4AE0-94BA-3985FA1B2B39}
 	EndGlobalSection
 EndGlobal

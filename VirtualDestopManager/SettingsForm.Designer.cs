@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SettingsForm));
+            var resources = new System.ComponentModel.ComponentResourceManager(typeof(SettingsForm));
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -56,7 +56,7 @@
             this.notifyIcon1.Icon = global::VirtualDesktopManager.Properties.Resources.mainIco;
             this.notifyIcon1.Text = "Virtual Desktop Manager";
             this.notifyIcon1.Visible = true;
-            this.notifyIcon1.DoubleClick += new System.EventHandler(this.notifyIcon1_DoubleClick);
+            this.notifyIcon1.DoubleClick += new System.EventHandler(this.NotifyIcon1_DoubleClick);
             // 
             // contextMenuStrip1
             // 
@@ -72,7 +72,7 @@
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
             this.settingsToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.settingsToolStripMenuItem.Text = "Settings";
-            this.settingsToolStripMenuItem.Click += new System.EventHandler(this.settingsToolStripMenuItem_Click);
+            this.settingsToolStripMenuItem.Click += new System.EventHandler(this.SettingsToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
@@ -141,7 +141,7 @@
             this.removeButton.TabIndex = 14;
             this.removeButton.Text = "Remove background";
             this.removeButton.UseVisualStyleBackColor = true;
-            this.removeButton.Click += new System.EventHandler(this.removeButton_Click);
+            this.removeButton.Click += new System.EventHandler(this.RemoveButton_Click);
             // 
             // downButton
             // 
@@ -156,7 +156,7 @@
             this.downButton.TabIndex = 16;
             this.downButton.Text = "â";
             this.downButton.UseVisualStyleBackColor = true;
-            this.downButton.Click += new System.EventHandler(this.downButton_Click);
+            this.downButton.Click += new System.EventHandler(this.DownButton_Click);
             // 
             // upButton
             // 
@@ -171,7 +171,7 @@
             this.upButton.TabIndex = 15;
             this.upButton.Text = "á";
             this.upButton.UseVisualStyleBackColor = true;
-            this.upButton.Click += new System.EventHandler(this.upButton_Click);
+            this.upButton.Click += new System.EventHandler(this.UpButton_Click);
             // 
             // listView1
             // 
@@ -203,7 +203,7 @@
             this.addFileButton.TabIndex = 13;
             this.addFileButton.Text = "Add background";
             this.addFileButton.UseVisualStyleBackColor = true;
-            this.addFileButton.Click += new System.EventHandler(this.addFileButton_Click);
+            this.addFileButton.Click += new System.EventHandler(this.AddFileButton_Click);
             // 
             // saveButton
             // 
@@ -218,7 +218,7 @@
             this.saveButton.TabIndex = 17;
             this.saveButton.Text = "Save";
             this.saveButton.UseVisualStyleBackColor = true;
-            this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
+            this.saveButton.Click += new System.EventHandler(this.SaveButton_Click);
             // 
             // checkBoxAltHotKey
             // 
